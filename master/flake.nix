@@ -11,7 +11,6 @@
   inputs.src-jesterjson-master.ref   = "refs/heads/master";
   inputs.src-jesterjson-master.owner = "JohnAD";
   inputs.src-jesterjson-master.repo  = "jesterjson";
-  inputs.src-jesterjson-master.dir   = "";
   inputs.src-jesterjson-master.type  = "github";
   
   inputs."jesterwithplugins".owner = "nim-nix-pkgs";
