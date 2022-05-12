@@ -2,13 +2,92 @@
   "name": "jesterjson",
   "url": "https://github.com/JohnAD/jesterjson",
   "method": "git",
-  "tags": [],
+  "tags": [
+    {
+      "name": "jesterjson",
+      "version": "1.0.1",
+      "author": "John Dupuy",
+      "desc": "A plugin for Jester that creates a json object and embeds the request object information.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [
+        "rst"
+      ],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "jesterwithplugins",
+          "str": ">= 0.5.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.5.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/v1.0.1"
+    }
+  ],
   "description": "A Jester web plugin that embeds key information into a JSON object.",
   "license": "MIT",
   "web": "https://github.com/JohnAD/jesterjson",
   "refs": [
-    "fatal: unable to access 'https://github.com/JohnAD/jesterjson/': Failed to connect to github.com port 443 after 129235 ms: Connection timed out",
+    "refs/heads/master",
+    "refs/tags/v1.0.1",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "jesterjson",
+      "version": "1.0.1",
+      "author": "John Dupuy",
+      "desc": "A plugin for Jester that creates a json object and embeds the request object information.",
+      "license": "MIT",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [
+        "rst"
+      ],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.0.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.0.0"
+          }
+        },
+        {
+          "name": "jesterwithplugins",
+          "str": ">= 0.5.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.5.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
